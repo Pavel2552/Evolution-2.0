@@ -36,10 +36,10 @@ int first_reading(WorldSize* w)
 	bool vod_x = true, vod_y = false, vod_bot = false, vod_food = false;
 	bool vod_poison=false,vod_wall=false;
 	bool vod_bot_need_evoule = false;
-	sf::RenderWindow first_mes(sf::VideoMode(800, 600), "My window");
+	sf::RenderWindow first_mes(sf::VideoMode(1000, 800), "My window");
 	sf::Event event;
 
-	sf::Font font;//øðèôò 
+	sf::Font font;//Ã¸Ã°Ã¨Ã´Ã² 
 
 	if (!font.loadFromFile("111.ttf"))
 	{
